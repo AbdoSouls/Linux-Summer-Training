@@ -1,0 +1,37 @@
+1.1-Create a new directory using the mkdir command : mkdir 'Abdo Souls'
+1.2-to change directory use cd command : cd 'Abdo Souls'
+
+2.1-mkdir documents
+2.2- cd documents
+2.3-touch file1.txt file2.txt file3.txt
+2.4-ls
+
+3.1 cd ~/abdo\ souls
+3.2- mkdir '.hidden_file'
+3.3- ls -a
+
+4.1- nano "file1.txt"
+4.2- write any message
+4.3- (ctrl + o) + (ctrl + x)
+4.4- cat "file1.txt"
+
+5.1-cd documents
+
+6.1- mkdir "-"
+6.2- cd ..
+6.3- cd documents/-
+
+7.1- cd abdo\ souls
+7.2- cp documents abdo\ souls
+7.3- mv 'abdo souls' MY_documents
+7.4 ls
+
+8.1- cat ".hidden_file"
+
+9.1- mv documents/file2.txt ~/abdo\ souls
+9.2- mv documents/file3.txt ~/abdo\ souls
+9.3- ls
+
+10.1- cd ~
+10.2- rm -r abdo\ souls
+10.3- ls
