@@ -1,0 +1,27 @@
+1.1 download the task file from linux from firefox browser on pop os 
+1.2 the file automaticaly will be found in the downloads
+1.3 go to downloads directory 
+
+2.1 decompress the Updated-Task-02-zip using unzip command 
+2.2 go to Updated-Task-02 
+
+3.1 use cat command to see the content of README.txt 
+3.2 to see hidden files use the ls -a command and option
+
+4.1 use tar -xf to extract the .livel-1.tar 
+4.2 go to .level-1
+
+5.1 use cat command to see the content of README.txt 
+5.2 use file command to see the extension of the level.2
+5.3 use tar -xf to extract the level.2 archieve 
+5.4 go to level.2
+
+6.1 search for level-3 using the find command 
+6.2 use tar -xf command to extract it with .out extension to level-3 name
+6.3 go to level-3 directory 
+
+7.1 use the ls to see the content of leve-3
+7.2 you will notice a file who has a different color 
+7.3 using the file command it is a link to some other file
+7.4 using the file command to this linked file he tell us that our target is 73 byte size 
+7.5 using find -size 73c command we will know where the target is 
