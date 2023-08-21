@@ -1,0 +1,29 @@
+1.1 to create a new user use the sudo adduser command and then use "passwd osc" to grant it a password
+1.2 to create a new group use the sudo groupadd command
+1.3 to add osc to osc_group use "sudo -a -G osc_group osc" command
+1.4 sudo -a -G sudo osc
+1.5 sudo su osc
+
+2.1 mkdir permission_practice
+2.2 cd permission_practice
+2.3 touch public_file.txt
+2.4 touch private_file.txt
+2.5 touch executable_script.sh
+2.6 chmod o+w
+2.7 chmod g-w
+2.8 chmod g+x
+2.9 chmod g-w
+2.10 chmod u+x
+
+3.1 to change owner for a file use the "chown" command (sudo chown abdosouls private_file.txt)
+3.2 to change group for a file use the "chgrp" command (sudo chgrp osc_group private_file.txt)
+
+4.1 to start a new process use "process name + &" (sleep 1000 &)
+4.2 to kill a process using its pid use the kill + pid command (kill 4821)
+4.3 to open vim you need to install it first using (sudo apt install vim)
+4.4 type "vim" to open it and then (ctrl+z) to suspend it
+4.5 kill by name is used by "killall" command (killall -9 vim)
+4.6 to display the running processes use the "ps -f" command and verify that both of the processes we killed no longer runs
+
+5.1 to install neofetch (sudo apt install neofetch)
+5.2 to uninstall it (sudo apt remove nefoetch)
